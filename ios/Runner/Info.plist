@@ -41,16 +41,24 @@
 			<string>UIInterfaceOrientationLandscapeLeft</string>
 			<string>UIInterfaceOrientationLandscapeRight</string>
 		</array>
+		<key>io.flutter.embedded_views_preview</key>
+		<string>YES</string>
+
+
 		<key>UIViewControllerBasedStatusBarAppearance</key>
 		<false/>
+		<key>NSAppTransportSecurity</key>
+		<true/>
+
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+
+		<key>NSAllowsArbitraryLoadsInWebContent</key>
+		<true/>
+
 		<key>CADisableMinimumFrameDurationOnPhone</key>
 		<true/>
 		<key>UIApplicationSupportsIndirectInputEvents</key>
-		<true/>
-	</dict>
-	<key>NSAppTransportSecurity</key>
-	<dict>
-		<key>NSAllowsArbitraryLoads</key>
 		<true/>
 	</dict>
 </plist>
